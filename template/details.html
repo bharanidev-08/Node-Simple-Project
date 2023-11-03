@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        height: 100vh;
+      }
+      .detail {
+        border: 2px solid black;
+        width: 70%;
+        height: 80%;
+        margin: 4% auto;
+        display: flex;
+      }
+      .detail img {
+        width: 80%;
+        padding: 20px;
+      }
+
+      .product-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="detail">
+      <img src="{IMGURL}" alt="" />
+      <div class="product-detail">
+        <div>
+          <h1>{TITLE}</h1>
+          <p>{PRICE}</p>
+          <p>{DESCRIPTION}</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
